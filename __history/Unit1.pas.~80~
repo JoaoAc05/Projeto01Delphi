@@ -1,0 +1,171 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Menus, Maskutils,
+  Vcl.ComCtrls, Vcl.ExtCtrls, Vcl.WinXPickers,
+  Unit2, uSupPassword;
+
+type
+  TForm1 = class(TForm)
+    Gravar: TButton;
+    Placa: TEdit;
+    Status: TComboBox;
+    Codigo: TEdit;
+    Especie: TComboBox;
+    LPlaca: TLabel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Cidade: TEdit;
+    Label3: TLabel;
+    UF: TEdit;
+    Label4: TLabel;
+    Renavan: TEdit;
+    Label5: TLabel;
+    Ano: TEdit;
+    Label6: TLabel;
+    Modelo: TEdit;
+    Label7: TLabel;
+    Cor: TEdit;
+    Label8: TLabel;
+    Chassi: TEdit;
+    Label9: TLabel;
+    Eixos: TComboBox;
+    Label10: TLabel;
+    Carroceria: TComboBox;
+    Label11: TLabel;
+    Memo1: TMemo;
+    LCodigo: TLabel;
+    TabControl1: TTabControl;
+    ControlBar1: TControlBar;
+    NomeMotorista: TEdit;
+    Label12: TLabel;
+    CPFMotorista: TEdit;
+    Label13: TLabel;
+    CNH: TEdit;
+    Label14: TLabel;
+    VencCNH: TDateTimePicker;
+    Label15: TLabel;
+    procedure GravarClick(Sender: TObject);
+    procedure LCodigoDblClick(Sender: TObject);
+    procedure EspecieChange(Sender: TObject);
+    procedure CPFMotoristaExit(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  ReboqueZero: TReboque;
+  CavaloZero: TCavalo;
+  SupPass: TfrmSupPassword;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.CPFMotoristaExit(Sender: TObject);
+begin
+  CPFMotorista.Text := FormatMaskText('000.000.000-00;0;', CPFMotorista.Text);
+end;
+
+procedure TForm1.EspecieChange(Sender: TObject);
+begin
+  if Especie.ItemIndex = 0 then
+  begin
+    TabControl1.Visible := True;
+  end
+  else
+    TabControl1.Visible := False;
+
+end;
+
+procedure TForm1.GravarClick(Sender: TObject);
+
+begin
+  var MotoristaD, MotoristaC : String;
+
+  Memo1.Lines.Clear;
+
+    if Especie.ItemIndex = 0 then
+    begin
+      CavaloZero := TCavalo.Create;
+      try
+        CavaloZero.Indice := 1;
+        CavaloZero.Status := Status.ItemIndex;
+        CavaloZero.Especie := Especie.ItemIndex;
+        CavaloZero.Placa := UpperCase(Placa.Text);
+        CavaloZero.CidadePlaca  := Cidade.Text;
+        CavaloZero.UFPlaca := UF.Text;
+        CavaloZero.Renavan := Renavan.Text;
+        CavaloZero.Ano := Ano.Text;
+        CavaloZero.Modelo := Modelo.Text;
+        CavaloZero.Cor := Cor.Text;
+        CavaloZero.Chassi := Chassi.Text;
+        CavaloZero.Eixos := StrToInt(Eixos.Items[Eixos.ItemIndex]);
+        CavaloZero.TipoCarroceria := Carroceria.Items[Carroceria.ItemIndex];
+
+        CavaloZero.NomeMotorista := NomeMotorista.Text;
+        CavaloZero.CPFMotorista := CPFMotorista.Text;
+        CavaloZero.CNHMotorista := CNH.Text;
+        CavaloZero.VencCNH := VencCNH.Date;
+
+        MotoristaD := ('Motorista: ' + NomeMotorista.Text + ' - CPF: ' + CPFMotorista.Text);
+        MotoristaC := ('CNH: ' + CNH.Text + ' - Vencimento: ' + DateToStr(VencCNH.Date));
+      finally
+        CavaloZero.Free;
+      end;
+    end
+    else if Especie.ItemIndex = 1 then
+      begin
+        ReboqueZero := TReboque.Create;
+        try
+          ReboqueZero.Indice := 1;
+          ReboqueZero.Status := Status.ItemIndex;
+          ReboqueZero.Especie := Especie.ItemIndex;
+          ReboqueZero.Placa := UpperCase(Placa.Text);
+          ReboqueZero.CidadePlaca  := Cidade.Text;
+          ReboqueZero.UFPlaca := UF.Text;
+          ReboqueZero.Renavan := Renavan.Text;
+          ReboqueZero.Ano := Ano.Text;
+          ReboqueZero.Modelo := Modelo.Text;
+          ReboqueZero.Cor := Cor.Text;
+          ReboqueZero.Chassi := Chassi.Text;
+          ReboqueZero.Eixos := StrToInt(Eixos.Items[Eixos.ItemIndex]);
+          ReboqueZero.TipoCarroceria := Carroceria.Items[Carroceria.ItemIndex];
+        finally
+          ReboqueZero.Free;
+        end;
+      end
+    else
+    begin
+      ShowMessage('Dolly')
+    end;
+
+    Memo1.Lines.Add('');
+    Memo1.Lines.Add('Status: ' + IntToStr(Status.ItemIndex) + ' - Espécie: ' + IntToStr(Especie.ItemIndex));
+    Memo1.Lines.Add('Placa: ' + UpperCase(Placa.Text) + ' - Cidade: ' + Cidade.Text + ' - UF: ' + UF.Text);
+    Memo1.Lines.Add('Renavan: ' + Renavan.Text + '  - Chassi: ' + Chassi.Text);
+    Memo1.Lines.Add('Ano: ' + Ano.Text + ' - Modelo: ' + Modelo.Text + ' - Cor: ' + Cor.Text);
+    Memo1.Lines.Add('Eixos: ' + Eixos.Items[Eixos.ItemIndex] + ' - Carroceria: ' + Carroceria.Items[Carroceria.ItemIndex]);
+    Memo1.Lines.Add(MotoristaD);
+    Memo1.Lines.Add(MotoristaC);
+
+end;
+
+
+procedure TForm1.LCodigoDblClick(Sender: TObject);
+begin
+  SupPass := TfrmSupPassword.Create(nil);
+  SupPass.showModal();
+
+  if SupPass.FAutorizado then
+    Codigo.Enabled := True;
+
+end;
+end.
+

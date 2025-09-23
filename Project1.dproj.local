@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/09/11 21:05:56.000.887,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2025/09/11 21:06:13.000.075,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Unit1.pas=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit1.pas</Transaction>
+    <Transaction>2025/09/11 21:06:13.000.075,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Unit1.dfm=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit1.dfm</Transaction>
+    <Transaction>2025/09/11 21:06:17.000.745,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Project1.dproj=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Project1.dproj</Transaction>
+    <Transaction>2025/09/11 21:07:00.000.471,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit2.pas</Transaction>
+    <Transaction>2025/09/16 20:06:19.000.060,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.pas</Transaction>
+    <Transaction>2025/09/22 11:36:38.734,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.pas</Transaction>
+    <Transaction>2025/09/22 11:48:25.704,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\uSupPassword.dfm=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.dfm</Transaction>
+    <Transaction>2025/09/22 11:48:25.704,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\uSupPassword.pas=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.pas</Transaction>
+  </Transactions>
+</BorlandProject>

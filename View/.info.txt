@@ -1,0 +1,11 @@
+Estrutura MVC
+
+- View
+
+- Ambiente de interação com o usuário ( Front )
+
+Formulários
+.pas Contém o código-fonte em Object Pascal, com a lógica e os manipuladores de eventos;
+(F12 - Code)
+.dfm É um arquivo de texto que armazena a estrutura e os valores das propriedades dos formulários e componentes, sendo criado quando se utiliza o designer visual do Delphi.
+(F12 - Design)

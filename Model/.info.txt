@@ -1,0 +1,11 @@
+Estrutura MVC
+
+- Model
+
+- Ambiente de interação com aplicações externas
+
+DataModule
+
+- Comunicação com API
+- Gerar arquivos de log
+- Conexão com Banco de Dados

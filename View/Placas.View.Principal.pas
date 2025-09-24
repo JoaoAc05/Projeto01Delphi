@@ -47,6 +47,7 @@ type
     Label14: TLabel;
     VencCNH: TDateTimePicker;
     Label15: TLabel;
+    Panel1: TPanel;
     procedure GravarClick(Sender: TObject);
     procedure LCodigoDblClick(Sender: TObject);
     procedure EspecieChange(Sender: TObject);

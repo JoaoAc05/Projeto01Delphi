@@ -132,6 +132,10 @@
             <Form>frmSupPassword</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="View\Placas.View.TelaInicial.pas">
+            <Form>Form2</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

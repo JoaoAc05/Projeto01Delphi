@@ -2,13 +2,19 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2025/09/11 21:05:56.000.887,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Unit1.pas</Transaction>
-    <Transaction>2025/09/11 21:06:13.000.075,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Unit1.pas=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit1.pas</Transaction>
-    <Transaction>2025/09/11 21:06:13.000.075,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Unit1.dfm=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit1.dfm</Transaction>
-    <Transaction>2025/09/11 21:06:17.000.745,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Project1.dproj=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Project1.dproj</Transaction>
+    <Transaction>2025/09/11 21:06:13.000.075,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit1.pas=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2025/09/11 21:06:13.000.075,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit1.dfm=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Unit1.dfm</Transaction>
+    <Transaction>2025/09/11 21:06:17.000.745,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Project1.dproj=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Project1.dproj</Transaction>
     <Transaction>2025/09/11 21:07:00.000.471,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit2.pas</Transaction>
     <Transaction>2025/09/16 20:06:19.000.060,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.pas</Transaction>
-    <Transaction>2025/09/22 11:36:38.734,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.pas</Transaction>
-    <Transaction>2025/09/22 11:48:25.704,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\uSupPassword.dfm=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.dfm</Transaction>
-    <Transaction>2025/09/22 11:48:25.704,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\uSupPassword.pas=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.pas</Transaction>
+    <Transaction>2025/09/22 11:36:38.000.734,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.pas</Transaction>
+    <Transaction>2025/09/22 11:48:25.000.704,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.pas=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\uSupPassword.pas</Transaction>
+    <Transaction>2025/09/22 11:48:25.000.704,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.dfm=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\uSupPassword.dfm</Transaction>
+    <Transaction>2025/09/24 04:53:37.889,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.Principal.pas=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/09/24 04:53:37.889,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.Principal.dfm=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Unit1.dfm</Transaction>
+    <Transaction>2025/09/24 04:54:30.890,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.SenhaSupervisor.pas=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Unit2.pas</Transaction>
+    <Transaction>2025/09/24 04:57:31.574,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Controller\Salao.Controller.ClassesPlaca.pas=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.SenhaSupervisor.pas</Transaction>
+    <Transaction>2025/09/24 04:59:34.245,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.SenhaSupervisor.pas=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\uSupPassword.pas</Transaction>
+    <Transaction>2025/09/24 04:59:34.245,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.SenhaSupervisor.dfm=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\uSupPassword.dfm</Transaction>
   </Transactions>
 </BorlandProject>

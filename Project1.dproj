@@ -123,12 +123,12 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Unit1.pas">
+        <DCCReference Include="View\Placas.View.Principal.pas">
             <Form>Form1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="Unit2.pas"/>
-        <DCCReference Include="uSupPassword.pas">
+        <DCCReference Include="Controller\Salao.Controller.ClassesPlaca.pas"/>
+        <DCCReference Include="View\Placas.View.SenhaSupervisor.pas">
             <Form>frmSupPassword</Form>
             <FormType>dfm</FormType>
         </DCCReference>

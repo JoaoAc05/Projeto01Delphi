@@ -2,9 +2,9 @@ program Project1;
 
 uses
   Vcl.Forms,
-  Unit1 in 'Unit1.pas' {Form1},
-  Unit2 in 'Unit2.pas',
-  uSupPassword in 'uSupPassword.pas' {frmSupPassword};
+  Placas.View.Principal in 'View\Placas.View.Principal.pas' {Form1},
+  Salao.Controller.ClassesPlaca in 'Controller\Salao.Controller.ClassesPlaca.pas',
+  Placas.View.SenhaSupervisor in 'View\Placas.View.SenhaSupervisor.pas' {frmSupPassword};
 
 {$R *.res}
 

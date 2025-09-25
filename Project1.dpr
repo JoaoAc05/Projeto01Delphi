@@ -2,17 +2,18 @@ program Project1;
 
 uses
   Vcl.Forms,
-  Placas.View.Principal in 'View\Placas.View.Principal.pas' {Form1},
+  Placas.View.Principal in 'View\Placas.View.Principal.pas' {FormCadastroPlaca},
   Salao.Controller.ClassesPlaca in 'Controller\Salao.Controller.ClassesPlaca.pas',
   Placas.View.SenhaSupervisor in 'View\Placas.View.SenhaSupervisor.pas' {frmSupPassword},
-  Placas.View.TelaInicial in 'View\Placas.View.TelaInicial.pas' {Form2};
+  Placas.View.TelaInicial in 'View\Placas.View.TelaInicial.pas' {FormPrincipal},
+  Placas.View.Cores in 'View\Styles\Placas.View.Cores.pas';
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
-  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TFormPrincipal, FormPrincipal);
+  Application.CreateForm(TFormCadastroPlaca, FormCadastroPlaca);
   Application.Run;
 end.

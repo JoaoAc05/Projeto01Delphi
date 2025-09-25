@@ -1,7 +1,7 @@
-object Form2: TForm2
+object FormPrincipal: TFormPrincipal
   Left = 0
   Top = 0
-  Caption = 'Form2'
+  Caption = 'FormPrincipal'
   ClientHeight = 640
   ClientWidth = 926
   Color = clBtnFace
@@ -10,6 +10,7 @@ object Form2: TForm2
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  OnCreate = FormCreate
   TextHeight = 15
   object pnlMain: TPanel
     Left = 0
@@ -20,10 +21,6 @@ object Form2: TForm2
     BevelOuter = bvNone
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = 440
-    ExplicitTop = 248
-    ExplicitWidth = 185
-    ExplicitHeight = 41
     object pnlMenu: TPanel
       Left = 0
       Top = 0
@@ -31,7 +28,38 @@ object Form2: TForm2
       Height = 640
       Align = alLeft
       BevelOuter = bvNone
+      ParentBackground = False
       TabOrder = 0
+      object SpeedButton1: TSpeedButton
+        Left = 0
+        Top = 57
+        Width = 129
+        Height = 56
+        Align = alTop
+        Caption = 'Entidades'
+        Flat = True
+      end
+      object SpeedButton2: TSpeedButton
+        Left = 0
+        Top = 113
+        Width = 129
+        Height = 56
+        Align = alTop
+        Caption = 'Placas'
+        Flat = True
+        ExplicitLeft = -6
+        ExplicitTop = 175
+      end
+      object pnlTopMenu: TPanel
+        Left = 0
+        Top = 0
+        Width = 129
+        Height = 57
+        Align = alTop
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 0
+      end
     end
     object pnlFull: TPanel
       Left = 129
@@ -42,10 +70,6 @@ object Form2: TForm2
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 1
-      ExplicitLeft = 464
-      ExplicitTop = 152
-      ExplicitWidth = 185
-      ExplicitHeight = 41
       object pnlHeader: TPanel
         Left = 0
         Top = 0
@@ -53,6 +77,7 @@ object Form2: TForm2
         Height = 57
         Align = alTop
         BevelOuter = bvNone
+        ParentBackground = False
         TabOrder = 0
       end
       object pnlBody: TPanel
@@ -64,10 +89,7 @@ object Form2: TForm2
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 1
-        ExplicitLeft = 400
-        ExplicitTop = 264
-        ExplicitWidth = 185
-        ExplicitHeight = 41
+        ExplicitLeft = 6
       end
     end
   end

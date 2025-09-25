@@ -1,7 +1,7 @@
-object Form1: TForm1
+object FormCadastroPlaca: TFormCadastroPlaca
   Left = 592
   Top = 270
-  Caption = 'Form1'
+  Caption = 'FormCadastroPlaca'
   ClientHeight = 643
   ClientWidth = 620
   Color = clWhite
@@ -23,7 +23,6 @@ object Form1: TForm1
     Color = clWhite
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 621
     object Label1: TLabel
       Left = 113
       Top = 8
@@ -35,7 +34,7 @@ object Form1: TForm1
     object Label10: TLabel
       Left = 508
       Top = 8
-      Width = 26
+      Width = 27
       Height = 15
       Caption = 'Eixos'
     end
@@ -49,7 +48,7 @@ object Form1: TForm1
     object Label2: TLabel
       Left = 208
       Top = 8
-      Width = 24
+      Width = 23
       Height = 15
       Caption = 'Tipo'
     end
@@ -341,8 +340,6 @@ object Form1: TForm1
       ReadOnly = True
       TabOrder = 15
       StyleElements = [seFont, seClient]
-      ExplicitLeft = 16
-      ExplicitTop = 504
     end
   end
 end

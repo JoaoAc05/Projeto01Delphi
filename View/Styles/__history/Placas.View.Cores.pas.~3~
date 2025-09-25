@@ -1,0 +1,22 @@
+unit Placas.View.Cores;
+
+interface
+
+const
+  COLOR_BACKGROUND = $00ffffff; // Azul 01 - 00fe7500
+  COLOR_BACKGROUND_TOP = $00a4584c; // Azul 02 - 00e05b2e
+  COLOR_BACKGROUND_TOP_SUBMENU = $00fcfaf9; // Azul 03 - 00db1302
+  COLOR_BACKGROUND_MENU_LATERAL = $00f8f2ed;
+  COLOR_DESTAQUE = $0084c400;
+  COLOR_FONTE = $00322f2d;
+
+  FONTE_H1 = 22;
+  FONTE_H2 = 20;
+  FONTE_H3 = 18;
+  FONTE_H4 = 16;
+  FONTE_H5 = 14;
+  FONTE_H6 = 12;
+
+implementation
+
+end.

@@ -124,7 +124,7 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="View\Placas.View.Principal.pas">
-            <Form>Form1</Form>
+            <Form>FormCadastroPlaca</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="Controller\Salao.Controller.ClassesPlaca.pas"/>
@@ -133,9 +133,10 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="View\Placas.View.TelaInicial.pas">
-            <Form>Form2</Form>
+            <Form>FormPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="View\Styles\Placas.View.Cores.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

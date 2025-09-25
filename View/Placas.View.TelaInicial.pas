@@ -4,15 +4,20 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Placas.View.Cores,
+  Vcl.Buttons;
 
 type
-  TForm2 = class(TForm)
+  TFormPrincipal = class(TForm)
     pnlMain: TPanel;
     pnlMenu: TPanel;
     pnlFull: TPanel;
     pnlHeader: TPanel;
     pnlBody: TPanel;
+    pnlTopMenu: TPanel;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -20,10 +25,21 @@ type
   end;
 
 var
-  Form2: TForm2;
+  FormPrincipal: TFormPrincipal;
 
 implementation
 
 {$R *.dfm}
+
+procedure TFormPrincipal.FormCreate(Sender: TObject);
+begin
+  pnlBody.Color := COLOR_BACKGROUND;
+  pnlHeader.Color := COLOR_BACKGROUND_TOP;
+  pnlMenu.Color := COLOR_BACKGROUND_MENU_LATERAL;
+  pnlTopMenu.Color := COLOR_DESTAQUE;
+
+  Self.Font.Size := FONTE_H6;
+
+end;
 
 end.

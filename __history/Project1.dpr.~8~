@@ -1,0 +1,19 @@
+program Project1;
+
+uses
+  Vcl.Forms,
+  Placas.View.Principal in 'View\Placas.View.Principal.pas' {FormCadastroPlaca},
+  Salao.Controller.ClassesPlaca in 'Controller\Salao.Controller.ClassesPlaca.pas',
+  Placas.View.SenhaSupervisor in 'View\Placas.View.SenhaSupervisor.pas' {frmSupPassword},
+  Placas.View.TelaInicial in 'View\Placas.View.TelaInicial.pas' {FormPrincipal},
+  Placas.View.Cores in 'View\Styles\Placas.View.Cores.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormCadastroPlaca, FormCadastroPlaca);
+  Application.CreateForm(TFormPrincipal, FormPrincipal);
+  Application.Run;
+end.

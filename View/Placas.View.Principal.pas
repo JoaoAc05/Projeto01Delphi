@@ -9,7 +9,7 @@ uses
   Salao.Controller.ClassesPlaca, Placas.View.SenhaSupervisor;
 
 type
-  TForm1 = class(TForm)
+  TFormCadastroPlaca = class(TForm)
     Gravar: TButton;
     Placa: TEdit;
     Status: TComboBox;
@@ -59,7 +59,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  FormCadastroPlaca: TFormCadastroPlaca;
   ReboqueZero: TReboque;
   CavaloZero: TCavalo;
   SupPass: TfrmSupPassword;
@@ -68,12 +68,12 @@ implementation
 
 {$R *.dfm}
 
-procedure TForm1.CPFMotoristaExit(Sender: TObject);
+procedure TFormCadastroPlaca.CPFMotoristaExit(Sender: TObject);
 begin
   CPFMotorista.Text := FormatMaskText('000.000.000-00;0;', CPFMotorista.Text);
 end;
 
-procedure TForm1.EspecieChange(Sender: TObject);
+procedure TFormCadastroPlaca.EspecieChange(Sender: TObject);
 begin
   if Especie.ItemIndex = 0 then
   begin
@@ -84,7 +84,7 @@ begin
 
 end;
 
-procedure TForm1.GravarClick(Sender: TObject);
+procedure TFormCadastroPlaca.GravarClick(Sender: TObject);
 
 begin
   var MotoristaD, MotoristaC : String;
@@ -157,7 +157,7 @@ begin
 
 end;
 
-procedure TForm1.LCodigoDblClick(Sender: TObject);
+procedure TFormCadastroPlaca.LCodigoDblClick(Sender: TObject);
 begin
   SupPass := TfrmSupPassword.Create(nil);
   try

@@ -19,6 +19,7 @@ type
     SpeedButton2: TSpeedButton;
     procedure FormCreate(Sender: TObject);
   private
+    procedure ApplyStyle;
     { Private declarations }
   public
     { Public declarations }
@@ -33,13 +34,16 @@ implementation
 
 procedure TFormPrincipal.FormCreate(Sender: TObject);
 begin
+  ApplyStyle;
+end;
+
+procedure TFormPrincipal.ApplyStyle;
+begin
   pnlBody.Color := COLOR_BACKGROUND;
   pnlHeader.Color := COLOR_BACKGROUND_TOP;
   pnlMenu.Color := COLOR_BACKGROUND_MENU_LATERAL;
   pnlTopMenu.Color := COLOR_DESTAQUE;
-
   Self.Font.Size := FONTE_H6;
-
 end;
 
 end.

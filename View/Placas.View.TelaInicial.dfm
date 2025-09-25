@@ -38,6 +38,7 @@ object FormPrincipal: TFormPrincipal
         Align = alTop
         Caption = 'Entidades'
         Flat = True
+        ExplicitTop = 51
       end
       object SpeedButton2: TSpeedButton
         Left = 0
@@ -47,8 +48,18 @@ object FormPrincipal: TFormPrincipal
         Align = alTop
         Caption = 'Placas'
         Flat = True
-        ExplicitLeft = -6
-        ExplicitTop = 175
+        OnClick = SpeedButton2Click
+        ExplicitTop = 105
+      end
+      object SpeedButton3: TSpeedButton
+        Left = 0
+        Top = 600
+        Width = 129
+        Height = 40
+        Align = alBottom
+        Caption = 'Home'
+        Flat = True
+        OnClick = SpeedButton2Click
       end
       object pnlTopMenu: TPanel
         Left = 0
@@ -77,6 +88,7 @@ object FormPrincipal: TFormPrincipal
         Height = 57
         Align = alTop
         BevelOuter = bvNone
+        Color = 16426569
         ParentBackground = False
         TabOrder = 0
       end
@@ -89,7 +101,6 @@ object FormPrincipal: TFormPrincipal
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 1
-        ExplicitLeft = 6
       end
     end
   end

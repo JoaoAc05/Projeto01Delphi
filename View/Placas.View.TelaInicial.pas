@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Placas.View.Cores,
-  Vcl.Buttons;
+  Vcl.Buttons, Router4D, Placas.View.Pages.Home;
 
 type
   TFormPrincipal = class(TForm)
@@ -17,7 +17,10 @@ type
     pnlTopMenu: TPanel;
     SpeedButton1: TSpeedButton;
     SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
     procedure FormCreate(Sender: TObject);
+    procedure SpeedButton2Click(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
   private
     procedure ApplyStyle;
     { Private declarations }
@@ -35,6 +38,18 @@ implementation
 procedure TFormPrincipal.FormCreate(Sender: TObject);
 begin
   ApplyStyle;
+
+  TRouter4d.Render<TPageHome>.SetElement(pnlBody, pnlMain);
+end;
+
+procedure TFormPrincipal.SpeedButton2Click(Sender: TObject);
+begin
+  TRouter4D.Link.&To('Placa');
+end;
+
+procedure TFormPrincipal.SpeedButton3Click(Sender: TObject);
+begin
+  TRouter4D.Link.&To('HomePage');
 end;
 
 procedure TFormPrincipal.ApplyStyle;

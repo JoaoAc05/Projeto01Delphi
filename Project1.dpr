@@ -6,7 +6,10 @@ uses
   Salao.Controller.ClassesPlaca in 'Controller\Salao.Controller.ClassesPlaca.pas',
   Placas.View.SenhaSupervisor in 'View\Placas.View.SenhaSupervisor.pas' {frmSupPassword},
   Placas.View.TelaInicial in 'View\Placas.View.TelaInicial.pas' {FormPrincipal},
-  Placas.View.Cores in 'View\Styles\Placas.View.Cores.pas';
+  Placas.View.Cores in 'View\Styles\Placas.View.Cores.pas',
+  Placas.View.Pages.Placa in 'View\Pages\Placas.View.Pages.Placa.pas' {PagePlaca},
+  Placas.View.Pages.Home in 'View\Pages\Placas.View.Pages.Home.pas' {PageHome},
+  Placas.View.Routers in 'View\Routers\Placas.View.Routers.pas';
 
 {$R *.res}
 
@@ -16,5 +19,7 @@ begin
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFormPrincipal, FormPrincipal);
   Application.CreateForm(TFormCadastroPlaca, FormCadastroPlaca);
+  Application.CreateForm(TPagePlaca, PagePlaca);
+  Application.CreateForm(TPageHome, PageHome);
   Application.Run;
 end.

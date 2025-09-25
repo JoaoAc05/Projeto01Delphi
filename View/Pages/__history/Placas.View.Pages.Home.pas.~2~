@@ -1,0 +1,43 @@
+unit Placas.View.Pages.Home;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Router4D.Interfaces;
+
+type
+  TForm2 = class(TForm, iRouter4DComponent)
+    pnlMain: TPanel;
+    pnlHeader: TPanel;
+    Label1: TLabel;
+    pnlBody: TPanel;
+    Label2: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    function Render : TForm;
+    procedure UnRender;
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+{ TForm2 }
+
+function TForm2.Render: TForm;
+begin
+  Result := Self;
+end;
+
+procedure TForm2.UnRender;
+begin
+
+end;
+
+end.

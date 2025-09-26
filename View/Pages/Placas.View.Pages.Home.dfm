@@ -22,10 +22,6 @@ object PageHome: TPageHome
     Color = clWhite
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = -188
-    ExplicitTop = -128
-    ExplicitWidth = 812
-    ExplicitHeight = 569
     object pnlHeader: TPanel
       Left = 0
       Top = 0
@@ -35,7 +31,6 @@ object PageHome: TPageHome
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 0
-      ExplicitWidth = 812
       object Label1: TLabel
         Left = 0
         Top = 0
@@ -52,8 +47,8 @@ object PageHome: TPageHome
         Font.Style = []
         ParentColor = False
         ParentFont = False
-        Visible = False
-        ExplicitTop = 2
+        ExplicitWidth = 88
+        ExplicitHeight = 28
       end
     end
     object pnlBody: TPanel
@@ -65,8 +60,6 @@ object PageHome: TPageHome
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 1
-      ExplicitWidth = 812
-      ExplicitHeight = 528
       object Label2: TLabel
         Left = 0
         Top = 0

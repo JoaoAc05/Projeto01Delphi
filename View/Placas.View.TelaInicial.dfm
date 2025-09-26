@@ -40,6 +40,16 @@ object FormPrincipal: TFormPrincipal
         Flat = True
         ExplicitTop = 51
       end
+      object SpeedButton3: TSpeedButton
+        Left = 0
+        Top = 616
+        Width = 129
+        Height = 24
+        Align = alBottom
+        Caption = 'Home'
+        Flat = True
+        OnClick = SpeedButton3Click
+      end
       object SpeedButton2: TSpeedButton
         Left = 0
         Top = 113
@@ -50,16 +60,6 @@ object FormPrincipal: TFormPrincipal
         Flat = True
         OnClick = SpeedButton2Click
         ExplicitTop = 105
-      end
-      object SpeedButton3: TSpeedButton
-        Left = 0
-        Top = 600
-        Width = 129
-        Height = 40
-        Align = alBottom
-        Caption = 'Home'
-        Flat = True
-        OnClick = SpeedButton2Click
       end
       object pnlTopMenu: TPanel
         Left = 0

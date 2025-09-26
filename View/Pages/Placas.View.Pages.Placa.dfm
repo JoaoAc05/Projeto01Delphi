@@ -24,9 +24,6 @@ object PagePlaca: TPagePlaca
     Color = clWhite
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = 8
-    ExplicitWidth = 812
-    ExplicitHeight = 569
     object pnlHeader: TPanel
       Left = 0
       Top = 0
@@ -35,12 +32,12 @@ object PagePlaca: TPagePlaca
       Align = alTop
       BevelOuter = bvNone
       TabOrder = 0
-      ExplicitWidth = 812
       object Label1: TLabel
-        Left = 224
-        Top = 3
-        Width = 588
-        Height = 33
+        Left = 0
+        Top = 0
+        Width = 828
+        Height = 41
+        Align = alClient
         Alignment = taCenter
         Caption = 'Placas'
         Font.Charset = DEFAULT_CHARSET
@@ -49,6 +46,10 @@ object PagePlaca: TPagePlaca
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        ExplicitLeft = 224
+        ExplicitTop = 3
+        ExplicitWidth = 53
+        ExplicitHeight = 28
       end
       object btnIncluir: TButton
         Left = 103
@@ -57,6 +58,7 @@ object PagePlaca: TPagePlaca
         Height = 33
         Caption = 'Incluir'
         TabOrder = 0
+        OnClick = btnIncluirClick
       end
       object btnDetalhar: TButton
         Left = 0
@@ -75,10 +77,6 @@ object PagePlaca: TPagePlaca
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 1
-      ExplicitLeft = 456
-      ExplicitTop = 336
-      ExplicitWidth = 185
-      ExplicitHeight = 41
     end
   end
 end

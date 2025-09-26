@@ -9,7 +9,8 @@ uses
   Placas.View.Cores in 'View\Styles\Placas.View.Cores.pas',
   Placas.View.Pages.Placa in 'View\Pages\Placas.View.Pages.Placa.pas' {PagePlaca},
   Placas.View.Pages.Home in 'View\Pages\Placas.View.Pages.Home.pas' {PageHome},
-  Placas.View.Routers in 'View\Routers\Placas.View.Routers.pas';
+  Placas.View.Routers in 'View\Routers\Placas.View.Routers.pas',
+  Placas.View.Pages.Form.Template in 'View\Pages\Placas.View.Pages.Form.Template.pas' {FormTemplate};
 
 {$R *.res}
 
@@ -18,8 +19,6 @@ begin
   ReportMemoryLeaksOnShutdown := True;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFormPrincipal, FormPrincipal);
-  Application.CreateForm(TFormCadastroPlaca, FormCadastroPlaca);
-  Application.CreateForm(TPagePlaca, PagePlaca);
-  Application.CreateForm(TPageHome, PageHome);
+  Application.CreateForm(TFormTemplate, FormTemplate);
   Application.Run;
 end.

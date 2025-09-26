@@ -7,10 +7,12 @@ uses
   Placas.View.SenhaSupervisor in 'View\Placas.View.SenhaSupervisor.pas' {frmSupPassword},
   Placas.View.TelaInicial in 'View\Placas.View.TelaInicial.pas' {FormPrincipal},
   Placas.View.Cores in 'View\Styles\Placas.View.Cores.pas',
-  Placas.View.Pages.Placa in 'View\Pages\Placas.View.Pages.Placa.pas' {PagePlaca},
   Placas.View.Pages.Home in 'View\Pages\Placas.View.Pages.Home.pas' {PageHome},
   Placas.View.Routers in 'View\Routers\Placas.View.Routers.pas',
-  Placas.View.Pages.Form.Template in 'View\Pages\Placas.View.Pages.Form.Template.pas' {FormTemplate};
+  Placas.View.Pages.Form.Template in 'View\Pages\Placas.View.Pages.Form.Template.pas' {FormTemplate},
+  Placas.View.Pages.Placa in 'View\Pages\Placas.View.Pages.Placa.pas' {PagePlaca},
+  Vcl.Themes,
+  Vcl.Styles;
 
 {$R *.res}
 
@@ -20,5 +22,6 @@ begin
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFormPrincipal, FormPrincipal);
   Application.CreateForm(TFormTemplate, FormTemplate);
+  Application.CreateForm(TPagePlaca, PagePlaca);
   Application.Run;
 end.

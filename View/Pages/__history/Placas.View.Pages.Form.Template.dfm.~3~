@@ -1,0 +1,48 @@
+object FormTemplate: TFormTemplate
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'FormTemplate'
+  ClientHeight = 655
+  ClientWidth = 1018
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OnCreate = FormCreate
+  TextHeight = 15
+  object pnlMain: TPanel
+    Left = 0
+    Top = 0
+    Width = 1018
+    Height = 655
+    Align = alClient
+    BevelOuter = bvNone
+    ParentBackground = False
+    TabOrder = 0
+    object pnlHeader: TPanel
+      Left = 0
+      Top = 0
+      Width = 1018
+      Height = 73
+      Align = alTop
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 0
+    end
+    object pnlBody: TPanel
+      Left = 0
+      Top = 73
+      Width = 1018
+      Height = 582
+      Align = alClient
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 1
+      ExplicitTop = 79
+    end
+  end
+end

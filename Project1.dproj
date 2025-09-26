@@ -140,10 +140,6 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="View\Styles\Placas.View.Cores.pas"/>
-        <DCCReference Include="View\Pages\Placas.View.Pages.Placa.pas">
-            <Form>PagePlaca</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="View\Pages\Placas.View.Pages.Home.pas">
             <Form>PageHome</Form>
             <FormType>dfm</FormType>
@@ -151,6 +147,10 @@
         <DCCReference Include="View\Routers\Placas.View.Routers.pas"/>
         <DCCReference Include="View\Pages\Placas.View.Pages.Form.Template.pas">
             <Form>FormTemplate</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="View\Pages\Placas.View.Pages.Placa.pas">
+            <Form>PagePlaca</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">

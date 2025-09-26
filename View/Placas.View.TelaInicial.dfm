@@ -32,7 +32,7 @@ object FormPrincipal: TFormPrincipal
       TabOrder = 0
       object SpeedButton1: TSpeedButton
         Left = 0
-        Top = 57
+        Top = 105
         Width = 129
         Height = 56
         Align = alTop
@@ -42,17 +42,17 @@ object FormPrincipal: TFormPrincipal
       end
       object SpeedButton3: TSpeedButton
         Left = 0
-        Top = 616
+        Top = 57
         Width = 129
-        Height = 24
-        Align = alBottom
+        Height = 48
+        Align = alTop
         Caption = 'Home'
         Flat = True
         OnClick = SpeedButton3Click
       end
       object SpeedButton2: TSpeedButton
         Left = 0
-        Top = 113
+        Top = 161
         Width = 129
         Height = 56
         Align = alTop

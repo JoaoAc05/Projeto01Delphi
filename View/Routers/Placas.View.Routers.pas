@@ -20,8 +20,7 @@ implementation
 
 uses
   Router4D,
-  Placas.View.Pages.Home,
-  Placas.View.Pages.Placa;
+  Placas.View.Pages.Home, Placas.View.Pages.Placa;
 
 { TRouters }
 

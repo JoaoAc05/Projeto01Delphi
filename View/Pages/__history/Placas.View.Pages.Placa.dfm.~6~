@@ -1,0 +1,14 @@
+inherited FormTemplate1: TFormTemplate1
+  Caption = 'FormTemplate1'
+  StyleElements = [seFont, seClient, seBorder]
+  TextHeight = 15
+  inherited pnlMain: TPanel
+    StyleElements = [seFont, seClient, seBorder]
+    inherited pnlHeader: TPanel
+      StyleElements = [seFont, seClient, seBorder]
+    end
+    inherited pnlBody: TPanel
+      StyleElements = [seFont, seClient, seBorder]
+    end
+  end
+end

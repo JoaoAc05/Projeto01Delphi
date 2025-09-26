@@ -58,7 +58,7 @@ begin
   pnlHeader.Color := COLOR_BACKGROUND_TOP;
   pnlMenu.Color := COLOR_BACKGROUND_MENU_LATERAL;
   pnlTopMenu.Color := COLOR_DESTAQUE;
-  Self.Font.Size := FONTE_H6;
+  Self.Font.Size := FONT_H6;
 end;
 
 end.

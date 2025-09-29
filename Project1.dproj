@@ -71,7 +71,7 @@
         <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
         <SanitizedProjectName>Project1</SanitizedProjectName>
-        <DCC_UnitSearchPath>modules\.dcp;..\modules\.dcp;modules\.dcu;..\modules\.dcu;modules;..\modules;modules\router4delphi\src;..\modules\router4delphi\src;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_UnitSearchPath>..\modules\.dcp;..\modules\.dcu;..\modules;..\modules\router4delphi\src;..\modules\HStorage4Bind\src;..\modules\aws4d\src;..\modules\bind4d\Sample;..\modules\bind4d\Sample\fmx;..\modules\bind4d\src;..\modules\bind4d\src\Forms;..\modules\dataset-serialize\src;..\modules\localcache4d\samples\LocalCache4D;..\modules\localcache4d\src;..\modules\restrequest4delphi\src;..\modules\translator4d\samples\GoogleTranslator;..\modules\translator4d\src;..\modules\zipcode4bind\src;modules\.dcp;modules\.dcu;modules;modules\HStorage4Bind\src;modules\aws4d\src;modules\bind4d\Sample;modules\bind4d\Sample\fmx;modules\bind4d\src;modules\bind4d\src\Forms;modules\dataset-serialize\src;modules\localcache4d\samples\LocalCache4D;modules\localcache4d\src;modules\restrequest4delphi\src;modules\router4delphi\src;modules\translator4d\samples\GoogleTranslator;modules\translator4d\src;modules\zipcode4bind\src;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <DCC_UsePackage>vclwinx;fmx;vclie;DbxCommonDriver;bindengine;IndyIPCommon;VCLRESTComponents;FireDACCommonODBC;FireDACCommonDriver;appanalytics;IndyProtocols;vclx;Skia.Package.RTL;IndyIPClient;dbxcds;vcledge;bindcompvclwinx;bindcompfmx;inetdb;FireDACSqliteDriver;DbxClientDriver;soapmidas;vclactnband;fmxFireDAC;dbexpress;DBXMySQLDriver;VclSmp;inet;vcltouch;fmxase;dbrtl;Skia.Package.FMX;fmxdae;FireDACMSAccDriver;CustomIPTransport;vcldsnap;DBXInterBaseDriver;IndySystem;Skia.Package.VCL;vcldb;vclFireDAC;bindcomp;FireDACCommon;IndyCore;RESTBackendComponents;bindcompdbx;rtl;FireDACMySQLDriver;FireDACADSDriver;RESTComponents;DBXSqliteDriver;vcl;IndyIPServer;dsnapxml;dsnapcon;adortl;vclimg;FireDACPgDriver;FireDAC;inetdbxpress;xmlrtl;tethering;bindcompvcl;dsnap;CloudService;fmxobj;bindcompvclsmp;soaprtl;soapserver;FireDACIBDriver;$(DCC_UsePackage)</DCC_UsePackage>
@@ -153,6 +153,7 @@
             <Form>PagePlaca</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="modules\bind4d\src\Bind4D.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

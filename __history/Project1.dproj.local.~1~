@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/09/11 21:05:56.000.887,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2025/09/11 21:06:13.000.075,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit1.dfm=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Unit1.dfm</Transaction>
+    <Transaction>2025/09/11 21:06:13.000.075,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit1.pas=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2025/09/11 21:06:17.000.745,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Project1.dproj=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\Project1.dproj</Transaction>
+    <Transaction>2025/09/11 21:07:00.000.471,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit2.pas</Transaction>
+    <Transaction>2025/09/16 20:06:19.000.060,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.pas</Transaction>
+    <Transaction>2025/09/22 11:36:38.000.734,=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.pas</Transaction>
+    <Transaction>2025/09/22 11:48:25.000.704,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.pas=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\uSupPassword.pas</Transaction>
+    <Transaction>2025/09/22 11:48:25.000.704,C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\Unit3.dfm=C:\Users\Cliente\Documents\Estudos\Cursos\DELPHI\POO\uSupPassword.dfm</Transaction>
+    <Transaction>2025/09/24 04:53:37.000.889,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.Principal.pas=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/09/24 04:53:37.000.889,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.Principal.dfm=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Unit1.dfm</Transaction>
+    <Transaction>2025/09/24 04:54:30.000.890,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.SenhaSupervisor.pas=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Unit2.pas</Transaction>
+    <Transaction>2025/09/24 04:57:31.000.574,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Controller\Salao.Controller.ClassesPlaca.pas=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.SenhaSupervisor.pas</Transaction>
+    <Transaction>2025/09/24 04:59:34.000.245,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.SenhaSupervisor.pas=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\uSupPassword.pas</Transaction>
+    <Transaction>2025/09/24 04:59:34.000.245,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Placas.View.SenhaSupervisor.dfm=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\uSupPassword.dfm</Transaction>
+    <Transaction>2025/09/24 11:17:35.000.706,=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit2.pas</Transaction>
+    <Transaction>2025/09/24 11:18:42.000.117,C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\View\Placas.View.TelaInicial.pas=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit2.pas</Transaction>
+    <Transaction>2025/09/24 11:18:42.000.117,C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\View\Placas.View.TelaInicial.dfm=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit2.dfm</Transaction>
+    <Transaction>2025/09/25 05:48:03.000.246,=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/09/25 05:48:46.000.194,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Unit1.pas=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Styles\Placas.View.Cores.pas</Transaction>
+    <Transaction>2025/09/25 08:14:15.000.555,=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/09/25 08:14:59.000.214,C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\View\Pages\Placas.View.Pages.Placa.dfm=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit1.dfm</Transaction>
+    <Transaction>2025/09/25 08:14:59.000.214,C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\View\Pages\Placas.View.Pages.Placa.pas=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/09/25 10:39:42.000.569,=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit2.pas</Transaction>
+    <Transaction>2025/09/25 10:40:08.000.266,C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\View\Pages\Placas.View.Pages.Home.pas=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit2.pas</Transaction>
+    <Transaction>2025/09/25 10:40:08.000.266,C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\View\Pages\Placas.View.Pages.Home.dfm=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit2.dfm</Transaction>
+    <Transaction>2025/09/25 16:31:34.000.746,=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/09/25 16:32:15.000.299,C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\View\Routers\Placas.View.Routers.pas=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/09/26 05:49:46.000.460,=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/09/26 05:50:29.000.232,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Unit1.pas=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Pages\Placas.View.Pages.Form.Template.pas</Transaction>
+    <Transaction>2025/09/26 05:50:29.000.232,C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\Unit1.dfm=C:\Users\Cliente\Documents\Delphi\Projeto01Delphi\View\Pages\Placas.View.Pages.Form.Template.dfm</Transaction>
+    <Transaction>2025/09/26 11:54:14.964,C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\View\Pages\Placas.View.Pages.Placa.pas=</Transaction>
+    <Transaction>2025/09/26 11:55:51.137,=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/09/26 11:56:12.322,C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\View\Pages\Placas.View.Pages.Placa.pas=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit1.pas</Transaction>
+    <Transaction>2025/09/26 11:56:12.322,C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\View\Pages\Placas.View.Pages.Placa.dfm=C:\Users\Suporte 3\Documents\GitHub\Projeto01Delphi\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

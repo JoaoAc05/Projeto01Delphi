@@ -2,8 +2,8 @@ object FormPrincipal: TFormPrincipal
   Left = 0
   Top = 0
   Caption = 'FormPrincipal'
-  ClientHeight = 640
-  ClientWidth = 926
+  ClientHeight = 681
+  ClientWidth = 1264
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,21 +15,24 @@ object FormPrincipal: TFormPrincipal
   object pnlMain: TPanel
     Left = 0
     Top = 0
-    Width = 926
-    Height = 640
+    Width = 1264
+    Height = 681
     Align = alClient
     BevelOuter = bvNone
     ParentBackground = False
     TabOrder = 0
+    ExplicitWidth = 926
+    ExplicitHeight = 640
     object pnlMenu: TPanel
       Left = 0
       Top = 0
       Width = 129
-      Height = 640
+      Height = 681
       Align = alLeft
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 0
+      ExplicitHeight = 640
       object SpeedButton1: TSpeedButton
         Left = 0
         Top = 105
@@ -75,32 +78,38 @@ object FormPrincipal: TFormPrincipal
     object pnlFull: TPanel
       Left = 129
       Top = 0
-      Width = 797
-      Height = 640
+      Width = 1135
+      Height = 681
       Align = alClient
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 1
+      ExplicitWidth = 797
+      ExplicitHeight = 640
       object pnlHeader: TPanel
         Left = 0
         Top = 0
-        Width = 797
+        Width = 1135
         Height = 57
         Align = alTop
         BevelOuter = bvNone
         Color = 16426569
         ParentBackground = False
         TabOrder = 0
+        ExplicitLeft = 6
+        ExplicitTop = -6
       end
       object pnlBody: TPanel
         Left = 0
         Top = 57
-        Width = 797
-        Height = 583
+        Width = 1135
+        Height = 624
         Align = alClient
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 1
+        ExplicitWidth = 797
+        ExplicitHeight = 583
       end
     end
   end

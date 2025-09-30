@@ -256,7 +256,6 @@ object FormTemplate: TFormTemplate
             Width = 592
             Height = 466
             Align = alClient
-            BorderStyle = bsNone
             Options = [dgTitles, dgIndicator, dgColumnResize, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
             TabOrder = 1
             TitleFont.Charset = DEFAULT_CHARSET

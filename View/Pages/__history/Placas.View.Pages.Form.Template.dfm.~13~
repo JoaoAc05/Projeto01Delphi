@@ -23,6 +23,8 @@ object FormTemplate: TFormTemplate
     BevelOuter = bvNone
     ParentBackground = False
     TabOrder = 0
+    ExplicitWidth = 1018
+    ExplicitHeight = 655
     object pnlHeader: TPanel
       Left = 0
       Top = 0
@@ -34,6 +36,7 @@ object FormTemplate: TFormTemplate
       Padding.Right = 100
       ParentBackground = False
       TabOrder = 0
+      ExplicitWidth = 1018
       object pnlSubHeader: TPanel
         Left = 100
         Top = 0
@@ -43,6 +46,7 @@ object FormTemplate: TFormTemplate
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 0
+        ExplicitWidth = 818
         object Label1: TLabel
           Left = 0
           Top = 0
@@ -109,53 +113,59 @@ object FormTemplate: TFormTemplate
       Height = 569
       Align = alClient
       BevelOuter = bvNone
-      Padding.Left = 50
-      Padding.Right = 50
+      Padding.Left = 100
+      Padding.Right = 100
       ParentBackground = False
       TabOrder = 1
+      ExplicitWidth = 1057
+      ExplicitHeight = 536
       object pnlConteudo: TPanel
-        Left = 50
+        Left = 100
         Top = 0
-        Width = 936
+        Width = 836
         Height = 569
         Align = alClient
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 0
-        ExplicitLeft = 100
-        ExplicitWidth = 836
+        ExplicitLeft = 472
+        ExplicitTop = 248
+        ExplicitWidth = 185
+        ExplicitHeight = 41
         object pnlHeaderConteudo: TPanel
           Left = 0
           Top = 0
-          Width = 936
+          Width = 836
           Height = 73
           Align = alTop
           BevelOuter = bvNone
           ParentBackground = False
           TabOrder = 0
-          ExplicitWidth = 836
           object pnlLinha: TPanel
             Left = 0
             Top = 72
-            Width = 936
+            Width = 836
             Height = 1
             Align = alBottom
             BevelOuter = bvNone
             Color = clSilver
             ParentBackground = False
             TabOrder = 0
-            ExplicitWidth = 836
+            ExplicitTop = 68
           end
           object pnlAction: TPanel
             Left = 0
             Top = 0
-            Width = 936
+            Width = 836
             Height = 72
             Align = alClient
             BevelOuter = bvNone
             ParentBackground = False
             TabOrder = 1
-            ExplicitWidth = 836
+            ExplicitLeft = 40
+            ExplicitTop = 48
+            ExplicitWidth = 185
+            ExplicitHeight = 41
             object SpeedButton4: TSpeedButton
               Left = 90
               Top = 0
@@ -185,7 +195,7 @@ object FormTemplate: TFormTemplate
               ExplicitLeft = 8
             end
             object pnlSearch: TPanel
-              Left = 492
+              Left = 392
               Top = 0
               Width = 444
               Height = 72
@@ -194,19 +204,18 @@ object FormTemplate: TFormTemplate
               Padding.Top = 15
               ParentBackground = False
               TabOrder = 0
-              ExplicitLeft = 392
               object Label2: TLabel
                 Left = 0
                 Top = 15
                 Width = 444
-                Height = 15
+                Height = 20
                 Align = alTop
                 Caption = 'Pesquisar'
-                ExplicitWidth = 50
+                ExplicitTop = 20
               end
               object Edit1: TEdit
                 Left = 0
-                Top = 30
+                Top = 35
                 Width = 444
                 Height = 23
                 Align = alTop
@@ -217,7 +226,7 @@ object FormTemplate: TFormTemplate
               end
               object pnlLinha2: TPanel
                 Left = 0
-                Top = 53
+                Top = 58
                 Width = 444
                 Height = 1
                 Align = alTop
@@ -226,44 +235,6 @@ object FormTemplate: TFormTemplate
                 TabOrder = 1
               end
             end
-          end
-        end
-        object pnlBodyConteudo: TPanel
-          Left = 0
-          Top = 73
-          Width = 936
-          Height = 496
-          Align = alClient
-          BevelOuter = bvNone
-          Padding.Bottom = 30
-          ParentBackground = False
-          TabOrder = 1
-          ExplicitTop = 78
-          object Panel1: TPanel
-            Left = 592
-            Top = 0
-            Width = 344
-            Height = 466
-            Align = alRight
-            BevelOuter = bvNone
-            ParentBackground = False
-            TabOrder = 0
-            ExplicitHeight = 496
-          end
-          object DBGrid1: TDBGrid
-            Left = 0
-            Top = 0
-            Width = 592
-            Height = 466
-            Align = alClient
-            BorderStyle = bsNone
-            Options = [dgTitles, dgIndicator, dgColumnResize, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
-            TabOrder = 1
-            TitleFont.Charset = DEFAULT_CHARSET
-            TitleFont.Color = clWindowText
-            TitleFont.Height = -12
-            TitleFont.Name = 'Segoe UI'
-            TitleFont.Style = []
           end
         end
       end
@@ -1338,16 +1309,5 @@ object FormTemplate: TFormTemplate
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
       000000000000}
-  end
-  object FDMemTable1: TFDMemTable
-    FetchOptions.AssignedValues = [evMode]
-    FetchOptions.Mode = fmAll
-    ResourceOptions.AssignedValues = [rvSilentMode]
-    ResourceOptions.SilentMode = True
-    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
-    UpdateOptions.CheckRequired = False
-    UpdateOptions.AutoCommitUpdates = True
-    Left = 882
-    Top = 346
   end
 end

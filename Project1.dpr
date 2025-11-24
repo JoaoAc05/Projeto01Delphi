@@ -13,7 +13,8 @@ uses
   Placas.View.Pages.Placa in 'View\Pages\Placas.View.Pages.Placa.pas' {PagePlaca},
   Vcl.Themes,
   Vcl.Styles,
-  Bind4D in 'modules\bind4d\src\Bind4D.pas';
+  Bind4D in 'modules\bind4d\src\Bind4D.pas',
+  UDmDados in 'Controller\UDmDados.pas' {dmDados: TDataModule};
 
 {$R *.res}
 
@@ -24,5 +25,6 @@ begin
   Application.CreateForm(TFormPrincipal, FormPrincipal);
   Application.CreateForm(TFormTemplate, FormTemplate);
   Application.CreateForm(TPagePlaca, PagePlaca);
+  Application.CreateForm(TdmDados, dmDados);
   Application.Run;
 end.

@@ -154,6 +154,10 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="modules\bind4d\src\Bind4D.pas"/>
+        <DCCReference Include="Controller\UDmDados.pas">
+            <Form>dmDados</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

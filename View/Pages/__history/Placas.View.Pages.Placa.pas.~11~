@@ -5,10 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Placas.View.Pages.Form.Template,
-  Vcl.ExtCtrls, Vcl.StdCtrls, System.ImageList, Vcl.ImgList, Vcl.Buttons, Bind4D,
-  Data.DB, FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Param,
-  FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
-  FireDAC.Comp.DataSet, FireDAC.Comp.Client, Vcl.Grids, Vcl.DBGrids;
+  Vcl.ExtCtrls, Vcl.StdCtrls, System.ImageList, Vcl.ImgList, Vcl.Buttons, Bind4D;
 
 type
   [ClassToBind('/placa', 'indice', 'Cadastro de Placas')]

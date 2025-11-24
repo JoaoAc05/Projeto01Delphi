@@ -158,6 +158,10 @@
             <Form>dmDados</Form>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
+        <DCCReference Include="View\Pages\Placas.View.Pages.Placa.Cadastro.pas">
+            <Form>PagePlacaCadastro</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

@@ -23,85 +23,6 @@ object FormTemplate: TFormTemplate
     BevelOuter = bvNone
     ParentBackground = False
     TabOrder = 0
-    object pnlHeader: TPanel
-      Left = 0
-      Top = 0
-      Width = 1036
-      Height = 65
-      Align = alTop
-      BevelOuter = bvNone
-      Padding.Left = 100
-      Padding.Right = 100
-      ParentBackground = False
-      TabOrder = 0
-      object pnlSubHeader: TPanel
-        Left = 100
-        Top = 0
-        Width = 836
-        Height = 65
-        Align = alClient
-        BevelOuter = bvNone
-        ParentBackground = False
-        TabOrder = 0
-        object Label1: TLabel
-          Left = 0
-          Top = 0
-          Width = 36
-          Height = 65
-          Align = alLeft
-          Caption = 'Label1'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -12
-          Font.Name = 'Segoe UI'
-          Font.Style = [fsBold]
-          ParentFont = False
-          Layout = tlCenter
-          ExplicitHeight = 15
-        end
-        object SpeedButton1: TSpeedButton
-          Left = 738
-          Top = 0
-          Width = 98
-          Height = 65
-          Align = alRight
-          Caption = 'CONFIGURA'#199#213'ES'
-          ImageIndex = 1
-          Images = ImageList1
-          Flat = True
-          Layout = blGlyphTop
-          ExplicitLeft = 720
-        end
-        object SpeedButton2: TSpeedButton
-          Left = 558
-          Top = 0
-          Width = 90
-          Height = 65
-          Align = alRight
-          Caption = 'RELAT'#211'RIOS'
-          ImageIndex = 0
-          Images = ImageList1
-          Flat = True
-          Layout = blGlyphTop
-          ExplicitLeft = 552
-          ExplicitTop = -6
-        end
-        object SpeedButton3: TSpeedButton
-          Left = 648
-          Top = 0
-          Width = 90
-          Height = 65
-          Align = alRight
-          Caption = 'HIST'#211'RICO'
-          ImageIndex = 2
-          Images = ImageList1
-          Flat = True
-          Layout = blGlyphTop
-          ExplicitLeft = 624
-          ExplicitTop = -6
-        end
-      end
-    end
     object pnlBody: TPanel
       Left = 0
       Top = 65
@@ -112,7 +33,7 @@ object FormTemplate: TFormTemplate
       Padding.Left = 50
       Padding.Right = 50
       ParentBackground = False
-      TabOrder = 1
+      TabOrder = 0
       object pnlConteudo: TPanel
         Left = 50
         Top = 0
@@ -122,8 +43,6 @@ object FormTemplate: TFormTemplate
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 0
-        ExplicitLeft = 100
-        ExplicitWidth = 836
         object pnlHeaderConteudo: TPanel
           Left = 0
           Top = 0
@@ -133,7 +52,6 @@ object FormTemplate: TFormTemplate
           BevelOuter = bvNone
           ParentBackground = False
           TabOrder = 0
-          ExplicitWidth = 836
           object pnlLinha: TPanel
             Left = 0
             Top = 72
@@ -144,7 +62,6 @@ object FormTemplate: TFormTemplate
             Color = clSilver
             ParentBackground = False
             TabOrder = 0
-            ExplicitWidth = 836
           end
           object pnlAction: TPanel
             Left = 0
@@ -155,7 +72,6 @@ object FormTemplate: TFormTemplate
             BevelOuter = bvNone
             ParentBackground = False
             TabOrder = 1
-            ExplicitWidth = 836
             object SpeedButton4: TSpeedButton
               Left = 90
               Top = 0
@@ -194,7 +110,6 @@ object FormTemplate: TFormTemplate
               Padding.Top = 15
               ParentBackground = False
               TabOrder = 0
-              ExplicitLeft = 392
               object Label2: TLabel
                 Left = 0
                 Top = 15
@@ -238,7 +153,6 @@ object FormTemplate: TFormTemplate
           Padding.Bottom = 30
           ParentBackground = False
           TabOrder = 1
-          ExplicitTop = 78
           object Panel1: TPanel
             Left = 592
             Top = 0
@@ -248,7 +162,6 @@ object FormTemplate: TFormTemplate
             BevelOuter = bvNone
             ParentBackground = False
             TabOrder = 0
-            ExplicitHeight = 496
           end
           object DBGrid1: TDBGrid
             Left = 0
@@ -265,6 +178,90 @@ object FormTemplate: TFormTemplate
             TitleFont.Name = 'Segoe UI'
             TitleFont.Style = []
           end
+        end
+      end
+    end
+    object pnlHeader: TPanel
+      Left = 0
+      Top = 0
+      Width = 1036
+      Height = 65
+      Align = alTop
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 1
+      ExplicitLeft = 50
+      ExplicitWidth = 936
+      object pnlSubHeader: TPanel
+        Left = 0
+        Top = 0
+        Width = 1036
+        Height = 65
+        Align = alClient
+        BevelOuter = bvNone
+        Padding.Left = 10
+        Padding.Right = 10
+        ParentBackground = False
+        TabOrder = 0
+        ExplicitLeft = 100
+        ExplicitWidth = 736
+        object Label1: TLabel
+          Left = 10
+          Top = 0
+          Width = 36
+          Height = 65
+          Align = alLeft
+          Caption = 'Label1'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -12
+          Font.Name = 'Segoe UI'
+          Font.Style = [fsBold]
+          ParentFont = False
+          Layout = tlCenter
+          ExplicitLeft = 0
+          ExplicitHeight = 15
+        end
+        object SpeedButton1: TSpeedButton
+          Left = 928
+          Top = 0
+          Width = 98
+          Height = 65
+          Align = alRight
+          Caption = 'CONFIGURA'#199#213'ES'
+          ImageIndex = 1
+          Images = ImageList1
+          Flat = True
+          Layout = blGlyphTop
+          ExplicitLeft = 720
+        end
+        object SpeedButton2: TSpeedButton
+          Left = 748
+          Top = 0
+          Width = 90
+          Height = 65
+          Align = alRight
+          Caption = 'RELAT'#211'RIOS'
+          ImageIndex = 0
+          Images = ImageList1
+          Flat = True
+          Layout = blGlyphTop
+          ExplicitLeft = 552
+          ExplicitTop = -6
+        end
+        object SpeedButton3: TSpeedButton
+          Left = 838
+          Top = 0
+          Width = 90
+          Height = 65
+          Align = alRight
+          Caption = 'HIST'#211'RICO'
+          ImageIndex = 2
+          Images = ImageList1
+          Flat = True
+          Layout = blGlyphTop
+          ExplicitLeft = 624
+          ExplicitTop = -6
         end
       end
     end

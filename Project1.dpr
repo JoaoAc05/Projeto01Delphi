@@ -14,7 +14,8 @@ uses
   Vcl.Themes,
   Vcl.Styles,
   Bind4D in 'modules\bind4d\src\Bind4D.pas',
-  UDmDados in 'Controller\UDmDados.pas' {dmDados: TDataModule};
+  UDmDados in 'Controller\UDmDados.pas' {dmDados: TDataModule},
+  Placas.View.Pages.Placa.Cadastro in 'View\Pages\Placas.View.Pages.Placa.Cadastro.pas' {PagePlacaCadastro};
 
 {$R *.res}
 
@@ -26,5 +27,6 @@ begin
   Application.CreateForm(TFormTemplate, FormTemplate);
   Application.CreateForm(TPagePlaca, PagePlaca);
   Application.CreateForm(TdmDados, dmDados);
+  Application.CreateForm(TPagePlacaCadastro, PagePlacaCadastro);
   Application.Run;
 end.

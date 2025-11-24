@@ -19,6 +19,8 @@ const
     FONT_COLOR2 = $00ac9f8f;
     FONT_COLOR3 = $0084563e;
     FONT_COLOR4 = $00b6a6a0;
+    FONT_DARK = $00000000;
+    FONT_LIGHT = $00999999;
 
     // SIZE
       FONT_H1 = 22;

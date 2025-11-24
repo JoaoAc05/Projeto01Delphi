@@ -15,13 +15,24 @@ type
     FDConnection1: TFDConnection;
     FDPhysFBDriverLink1: TFDPhysFBDriverLink;
     FDGUIxWaitCursor1: TFDGUIxWaitCursor;
-    FDQueryEntidade: TFDQuery;
-    FDQueryEntidadeINDICE: TIntegerField;
-    FDQueryEntidadeNOME: TStringField;
-    FDQueryEntidadeCNPJ_CPF: TStringField;
-    FDQueryEntidadeFIS_JUR: TIntegerField;
-    FDQueryEntidadeESPECIE: TIntegerField;
-    FDQueryEntidadeSTATUS: TIntegerField;
+    FDQueryVeiculo: TFDQuery;
+    FDQueryVeiculoINDICE: TIntegerField;
+    FDQueryVeiculoSTATUS: TIntegerField;
+    FDQueryVeiculoTIPO: TIntegerField;
+    FDQueryVeiculoCARROCERIA: TStringField;
+    FDQueryVeiculoEIXOS: TIntegerField;
+    FDQueryVeiculoPLACA: TStringField;
+    FDQueryVeiculoCIDADE: TIntegerField;
+    FDQueryVeiculoUF: TStringField;
+    FDQueryVeiculoRENAVAN: TStringField;
+    FDQueryVeiculoCHASSI: TStringField;
+    FDQueryVeiculoANO: TIntegerField;
+    FDQueryVeiculoMODELO: TStringField;
+    FDQueryVeiculoCOR: TStringField;
+    FDQueryVeiculoCOD_MOTORISTA: TIntegerField;
+    FDQueryVeiculoNOME_MOTORISTA: TStringField;
+    FDQueryVeiculoCPF_MOTORISTA: TStringField;
+    FDQueryVeiculoCNH_MOTORISTA: TIntegerField;
   private
     { Private declarations }
   public

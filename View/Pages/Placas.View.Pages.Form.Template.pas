@@ -88,7 +88,7 @@ begin
   DBGrid1.Font.Color := FONT_COLOR4;
   DBGrid1.Font.Name := 'Segoe UI';
   DBGrid1.TitleFont.Size := FONT_H5;
-  DBGrid1.TitleFont.Color := FONT_COLOR4;
+  DBGrid1.TitleFont.Color := FONT_DARK;
   DBGrid1.TitleFont.Name := 'Segoe UI';
 
 end;
